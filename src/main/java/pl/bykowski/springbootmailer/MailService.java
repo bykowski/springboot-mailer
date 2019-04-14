@@ -18,6 +18,7 @@ public class MailService {
         this.javaMailSender = javaMailSender;
     }
 
+    @SendMail
     public void sendMail(String to,
                          String subject,
                          String text,
